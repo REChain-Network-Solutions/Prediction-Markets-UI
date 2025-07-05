@@ -1,29 +1,37 @@
-# prediction markets UI
+# 🌐 Prediction Markets UI
 
-## Install
+Frontend interface for the REChain Prediction Markets system. Built with Next.js, React, and web3 libraries.
 
-Install node.js, clone the repository, then say
+## ✨ Features
+- Browse and filter active markets
+- Submit and resolve predictions
+- Connect wallet and manage tokens
+- Real-time updates and responsive UI
 
-```sh
-yarn
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
 ```
 
-## ENV
+Edit `.env.local` with:
 
-Copy the appropriate .env.XXXX file to .env
-
-## Run
-
-```sh
-yarn start
+```env
+NEXT_PUBLIC_MARKET_API=http://localhost:4000
+NEXT_PUBLIC_CHAIN_ID=1337
+NEXT_PUBLIC_RPC_URL=http://localhost:8545
 ```
 
-## Build
+## 🧱 Stack
 
-```sh
-yarn build
-```
+- React
+- Next.js
+- Ethers.js / Web3
+- TailwindCSS
+- Zustand or Redux (state)
+- REST / GraphQL API
 
-## Donations
+## 📜 License
 
-We accept donations through [KatyaAI](https://KatyaAI.org) and forward a portion of the donations to other open-source projects that made Prophet possible.
+MIT
