@@ -1,0 +1,47 @@
+.title {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.collapse {
+  background-color: #141413;
+  max-width: 700px;
+  margin-top: 40px;
+}
+
+.panel {
+  font-size: 16px;
+  line-height: 25px;
+  color: #dcdde1;
+  margin-bottom: 35px;
+  background-color: #303030;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.panel a {
+  color: #2D72F6 !important;
+  text-decoration: underline;
+}
+
+.panel h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.panel p {
+  margin-bottom: 20px;
+}
+
+.panel p:last-child {
+  margin-bottom: 0px;
+}
+
+.otherQuestionsWrap {
+  margin-top: 20px;
+}

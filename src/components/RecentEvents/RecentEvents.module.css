@@ -1,0 +1,33 @@
+.eventList {
+  margin-bottom: 20px;
+}
+
+.eventWrap {
+  border-radius: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.eventWrap:first-child {
+  padding-top: 0;
+}
+
+.timestamp {
+  color: #ddd;
+  font-size: 12px;
+  word-break: break-all;
+  min-width: 150px;
+  text-align: right;
+}
+
+.moreButtonWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  .timestamp {
+    min-width: none;
+  }
+}

@@ -1,0 +1,32 @@
+.wrap {
+  padding: 20px 0;
+  margin-top: 30px;
+  color: #ccc;
+  width: 100%;
+  text-align: center;
+}
+
+.socialWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.timeZoneWrap {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.name {
+  color: #ccc !important;
+}
+
+.disclaimer {
+  font-size: 10px;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.copy {
+  margin-top: 10px;
+}

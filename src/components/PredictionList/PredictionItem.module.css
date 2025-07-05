@@ -1,0 +1,125 @@
+.itemWrap {
+  color: #fff;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  border: 1px solid #424342;
+  position: relative;
+}
+
+.notifyWrap {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.eventDesc {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.infoWrap {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.infoTitle {
+  color: #bfbfbf;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.infoValueInDollar {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.teamWrap {
+  padding-top: 10px;
+  line-height: 1;
+}
+
+.crests {
+  max-width: 50%;
+  height: 78px;
+}
+
+.createNowWrap {
+  text-align: right;
+}
+
+.team {
+  line-height: 1;
+}
+
+.time {
+  line-height: 1.2;
+}
+
+.apyWrap {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #303030;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .draw {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .crests {
+    max-width: 70%;
+    object-fit: contain;
+  }
+
+  .itemWrap :global(.ant-card-body) {
+    padding: 12px;
+  }
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .infoValueInDollar {
+    margin-bottom: 0;
+  }
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+@media (max-width: 400px) {
+  .crests {
+    max-width: 70%;
+    min-width: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .createNowWrap {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .price {
+    font-size: 12px;
+    /* line-height: 1 !important; */
+  }
+
+  .team{
+    /* line-height: 1 !important; */
+  }
+}

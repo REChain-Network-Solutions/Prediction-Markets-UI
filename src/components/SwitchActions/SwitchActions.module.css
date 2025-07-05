@@ -1,0 +1,65 @@
+.switch {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.switch.suspense .switchItem {
+  width: 9em;
+  height: 34px;
+  border: none;
+  animation: pulse 500ms infinite alternate ease-in-out;
+}
+
+.switch a {
+  color: #dcdde1;
+}
+
+.switchSmall>.switchItem {
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+.switchItem {
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-right: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 1px solid #303030;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.switchItem img {
+  margin-right: 5px;
+}
+
+.switchItem:hover {
+  background-color: #1e1e1e;
+  transition: .5s;
+}
+
+.switchActive {
+  background-color: #303030;
+  border: 1px solid #303030;
+}
+
+.switchActive:hover {
+  background-color: #303030;
+}
+
+@keyframes pulse {
+	0% {
+    background-color: #1e1e1e;
+	}
+
+	100% {
+    background-color: #232222;
+	}
+}

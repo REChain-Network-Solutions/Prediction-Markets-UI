@@ -1,0 +1,14 @@
+{
+  "short_name": "Prediction markets",
+  "name": "Prediction markets",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#141412",
+  "background_color": "#141412"
+}
