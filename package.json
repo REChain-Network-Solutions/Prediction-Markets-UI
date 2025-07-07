@@ -12,7 +12,7 @@
     "@react-hook/resize-observer": "^1.2.6",
     "@reduxjs/toolkit": "^2.2.6",
     "antd": "^4.19.5",
-    "axios": "^0.30.0",
+    "axios": "^1.10.0",
     "counterstake-sdk": "^0.1.9",
     "craco-less": "^1.17.1",
     "history": "^5.2.0",
