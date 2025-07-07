@@ -14,7 +14,7 @@
     "antd": "^4.19.5",
     "axios": "^0.30.0",
     "counterstake-sdk": "^0.1.9",
-    "craco-less": "^1.17.1",
+    "craco-less": "^3.0.1",
     "history": "^5.2.0",
     "i18next": "^21.9.2",
     "lodash": "^4.17.21",
