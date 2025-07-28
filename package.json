@@ -5,7 +5,7 @@
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
     "@ant-design/plots": "^1.0.9",
-    "@craco/craco": "^6.0.0",
+    "@craco/craco": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.1.18",
