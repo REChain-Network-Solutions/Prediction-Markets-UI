@@ -96,10 +96,10 @@
     "@rc-component/util" "^1.2.1"
     classnames "^2.2.6"
 
-"@ant-design/plots@^2.6.2":
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/@ant-design/plots/-/plots-2.6.2.tgz#b56906c9a0c5bc6b9b5ab66db8d7b17569f60f72"
-  integrity sha512-8OEIoMM5roAefe3ju7cQB8hrE+72o0BZ8S9HtwmtcoJh5Rgu7PeRx82RhGSfMikqo+ko6YWn2/GIgGOw0MQlYQ==
+"@ant-design/plots@^2.6.3":
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/@ant-design/plots/-/plots-2.6.3.tgz#e2219e233a03848dd3e1c2655d001889091d3991"
+  integrity sha512-9V6QND7QESzAlPu5bE56xTlUi2ctfDkdRiNY8SgG5/IW8InqW9SFfhO0sW5mIpTslsI8o/MgmysnSWED8h6adg==
   dependencies:
     "@ant-design/charts-util" "0.0.2"
     "@antv/event-emitter" "^0.1.3"
