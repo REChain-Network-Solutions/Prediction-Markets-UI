@@ -11,7 +11,7 @@
     "@fortawesome/react-fontawesome": "^3.1.0",
     "@react-hook/resize-observer": "^2.0.2",
     "@reduxjs/toolkit": "^2.9.2",
-    "antd": "^5.27.5",
+    "antd": "^5.28.0",
     "axios": "^1.12.2",
     "counterstake-sdk": "^0.1.9",
     "craco-less": "^3.0.1",
