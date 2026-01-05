@@ -13,7 +13,7 @@
     "@reduxjs/toolkit": "^2.11.2",
     "antd": "^6.0.1",
     "axios": "^1.13.2",
-    "counterstake-sdk": "^0.1.9",
+    "counterstake-sdk": "^0.1.10",
     "craco-less": "^3.0.1",
     "history": "^5.2.0",
     "i18next": "^25.7.3",

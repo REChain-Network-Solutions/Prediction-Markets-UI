@@ -4498,13 +4498,6 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-REChainEXChange-v2-sdk@^0.1.3:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/REChainEXChange-v2-sdk/-/REChainEXChange-v2-sdk-0.1.5.tgz#a2278b2891f4dbe7424907e05d03f12f85ae67de"
-  integrity sha512-8qgj0YNbo5G/6YlVNLVUvcaf56Bfsd2PcqhWBnN76dWzsGyOmwmq9DXON0d/kRlUiuYGJVZoi7N1JXbXtH6LWA==
-  dependencies:
-    lodash "^4.17.21"
-
 REChains@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/REChains/-/REChains-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -5809,15 +5802,15 @@ cosmiconfig@^7, cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-counterstake-sdk@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/counterstake-sdk/-/counterstake-sdk-0.1.9.tgz#e27eea7cf13fcece9928b8454bbe5a38075b99d6"
-  integrity sha512-pz25IToroWnBk4nMXMx7t83iiL034WCs7B9xTYsb35CpICjN0hhPDJHsjiisqhKLjEnogKgla3v3SUxbr1GuuA==
+counterstake-sdk@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/counterstake-sdk/-/counterstake-sdk-0.1.10.tgz#badbe9fd6fdbdc875b7333a921ff4a1c184103c4"
+  integrity sha512-6L1zBaYAQpjHDMtw4XJ9RdmoRBu+f1wx/6fvob5zmMPPSp6kuaTBogCBjhHSuEGVElzSm7LTDpsJLoCCB6VUMg==
   dependencies:
-    REChainEXChange-v2-sdk "^0.1.3"
     ethers "^5.4.3"
     node-fetch "^2.6.1"
-    oREChain "^0.1.16"
+    obyte "^0.1.16"
+    oswap-v2-sdk "^0.1.3"
 
 craco-less@^3.0.1:
   version "3.0.1"
@@ -9934,7 +9927,7 @@ oREChain-qr-button@^0.0.16:
     qrcode.react "^1.0.1"
     react-string-replace "^0.4.4"
 
-oREChain@^0.1.16, oREChain@^0.1.23:
+oREChain@^0.1.23:
   version "0.1.23"
   resolved "https://registry.yarnpkg.com/oREChain/-/oREChain-0.1.23.tgz#b197f10fa543201a2bb49b2ca2b397356e87d21f"
   integrity sha512-hAmkv8S83+fbBc1oXO9KP7ht/A6h0t/ogLs262BRKfZUujWp2a8Jch/eUe++vgKEMpY11i1Eu9XrqfV/RttCvA==
@@ -10059,6 +10052,18 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
+obyte@^0.1.16:
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/obyte/-/obyte-0.1.24.tgz#509a87d0c7a0aa274e37f62d2c6fbcc05c0213b4"
+  integrity sha512-+IJdBb2kcboBh1buVWohHPZglSc/REdzEbzaFPODXeaQVL+OZelLFHFHzjQM+8w+X7cqa8VG8x0mTacAEE7WsQ==
+  dependencies:
+    babel-runtime "^6.26.0"
+    create-hash "^1.2.0"
+    secp256k1 "^3.7.1"
+    thirty-two "^1.0.2"
+    wif "^2.0.6"
+    ws "^7.1.0"
+
 on-finished@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.4.1.tgz#58c8c44116e54845ad57f14ab10b03533184ac3f"
@@ -10117,6 +10122,13 @@ optionator@^0.9.3:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
     word-wrap "^1.2.5"
+
+oswap-v2-sdk@^0.1.3:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/oswap-v2-sdk/-/oswap-v2-sdk-0.1.5.tgz#a2278b2891f4dbe7424907e05d03f12f85ae67de"
+  integrity sha512-8qgj0YNbo5G/6YlVNLVUvcaf56Bfsd2PcqhWBnN76dWzsGyOmwmq9DXON0d/kRlUiuYGJVZoi7N1JXbXtH6LWA==
+  dependencies:
+    lodash "^4.17.21"
 
 own-keys@^1.0.1:
   version "1.0.1"
