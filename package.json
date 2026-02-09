@@ -16,7 +16,7 @@
     "counterstake-sdk": "^0.1.10",
     "craco-less": "^3.0.1",
     "history": "^5.2.0",
-    "i18next": "^25.8.0",
+    "i18next": "^25.8.4",
     "lodash": "^4.17.23",
     "oREChain": "^0.1.23",
     "oREChain-qr-button": "^0.0.16",
